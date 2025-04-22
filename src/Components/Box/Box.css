@@ -36,8 +36,8 @@
 }
 
 .weightInputDiv .heightInputDiv .ageInputDiv .genderInputDiv {
-    width: 314px;
-    height: 36px;
+    width: 24.5%;
+    height: 4.32%;
 }
 
 .input-group {
@@ -113,4 +113,52 @@
 .no-spinner::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    .box {
+        width: 320px;
+        height: 400px;
+        top: 30%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+
+    .input-group {
+        width: 250px;
+
+        input::placeholder {
+            font-size: 12.5px;
+        }
+    }
+
+    .genderInputDiv .radioBox {
+        width: 179px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 380px;
+        height: 420px;
+        top: 30%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+
+    .input-group {
+        width: 300px;
+
+        input::placeholder {
+            font-size: 14.5px;
+        }
+    }
+
+    .genderInputDiv .radioBox {
+        width: 229px;
+    }
 }

@@ -1,0 +1,31 @@
+@media (max-width : 500px) {
+    .rcProgress {
+        top: 75%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        height: fit-content !important;
+
+    }
+
+    .CircleDiv {
+        width: 220px !important;
+        height: 220px !important;
+    }
+}
+
+@media (max-width : 768px) {
+    .rcProgress {
+        top: 70%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        height: fit-content !important;
+
+    }
+
+    .CircleDiv {
+        width: 270px !important;
+        height: 270px !important;
+    }
+}

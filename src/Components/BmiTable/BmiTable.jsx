@@ -18,7 +18,7 @@ const BmiTable = () => {
                     <tr>
                         <th>Classification</th>
                         <th>BMI Range (Kg/m²)</th>
-                        <th>Risk of Developing Health Problems</th>
+                        <th className="Health">Risk of Developing Health Problems</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -26,7 +26,7 @@ const BmiTable = () => {
                         <tr key={idx}>
                             <td>{row.classification}</td>
                             <td>{row.range}</td>
-                            <td>{row.risk}</td>
+                            <td className="Health">{row.risk}</td>
                         </tr>
                     ))}
                 </tbody>

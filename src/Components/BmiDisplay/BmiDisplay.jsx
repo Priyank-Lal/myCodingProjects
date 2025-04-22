@@ -1,9 +1,10 @@
 import React from "react";
 import { Circle } from "rc-progress";
+import "./BmiDisplay.css"
 
 export default function BmiDisplay({ finalResult, BmiPercentage, review }) {
     return (
-        <div
+        <div className="rcProgress"
             style={{
                 display: "flex",
                 flexDirection: "column",
@@ -15,7 +16,7 @@ export default function BmiDisplay({ finalResult, BmiPercentage, review }) {
         >
             <h2>Your BMI Value :</h2>
 
-            <div style={{ position: "relative", width: "256px", height: "256px" }}>
+            <div className="CircleDiv" style={{ position: "relative", width: "256px", height: "256px" }}>
                 <Circle
                     trailWidth={10}
                     percent={BmiPercentage > 100 ? 100 : BmiPercentage}
@@ -29,7 +30,10 @@ export default function BmiDisplay({ finalResult, BmiPercentage, review }) {
                                             "green"
                     }
 
-                    style={{ width: "100%", height: "100%", }}
+                    style={{
+                        width: "100%", height: "100%", boxShadow: 'rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px',
+                        borderRadius: '50%',
+                    }}
                 />
                 <div
                     style={{
