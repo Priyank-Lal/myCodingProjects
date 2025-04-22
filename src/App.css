@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+
+body {
+    font-family: "Zen Maru Gothic", serif;
+    font-style: normal;
+    background-color: rgba(255, 255, 255, 0.744);
+}
+
+.MainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 806px;
+    height: 780px;
+    top: 49%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.bmiTable {
+    display: grid
+}
+
+@media (max-width : 890px) {
+    .bmiTable {
+        display: none !important;
+    }
+
+}

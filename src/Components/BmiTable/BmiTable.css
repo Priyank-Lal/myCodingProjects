@@ -1,0 +1,35 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -4px;
+}
+
+.bmi-table {
+    width: 806px;
+    height: 300px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+}
+
+.bmi-table thead {
+    background-color: rgba(63, 94, 251, 1);
+    color: white;
+    font-size: 19px;
+}
+
+.bmi-table th,
+.bmi-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.bmi-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
