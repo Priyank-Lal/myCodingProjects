@@ -1,6 +1,6 @@
 @media (max-width : 500px) {
     .rcProgress {
-        top: 75%;
+        top: 77% !important;
         left: 50%;
         position: absolute;
         transform: translate(-50%, -50%);
@@ -11,13 +11,42 @@
     .CircleDiv {
         width: 220px !important;
         height: 220px !important;
+
+        span {
+            display: none !important;
+        }
+    }
+
+
+}
+
+@media (max-height : 820px) {
+    .rcProgress {
+        top: 74% !important;
+        left: 50% !important;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        height: fit-content !important;
+
+        h2 {
+            margin-bottom: 0px;
+        }
+    }
+
+    .CircleDiv {
+        width: 220px !important;
+        height: 220px !important;
+
+        span {
+            display: none !important;
+        }
     }
 }
 
 @media (max-width : 768px) {
     .rcProgress {
-        top: 70%;
-        left: 50%;
+        top: 75% !important;
+        left: 50% !important;
         position: absolute;
         transform: translate(-50%, -50%);
         height: fit-content !important;
@@ -27,5 +56,35 @@
     .CircleDiv {
         width: 270px !important;
         height: 270px !important;
+
+        span {
+            display: none !important;
+        }
+    }
+}
+
+
+
+@media (max-width : 375px) {
+
+    .rcProgress {
+        top: 80% !important;
+        left: 50% !important;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        height: fit-content !important;
+
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+    .CircleDiv {
+        width: 160px !important;
+        height: 160px !important;
+
+        span {
+            display: none !important;
+        }
     }
 }
