@@ -6,6 +6,9 @@
         transform: translate(-50%, -50%);
         height: fit-content !important;
 
+        h2 {
+            display: none;
+        }
     }
 
     .CircleDiv {
@@ -51,6 +54,9 @@
         transform: translate(-50%, -50%);
         height: fit-content !important;
 
+        h2 {
+            display: none;
+        }
     }
 
     .CircleDiv {
@@ -75,7 +81,7 @@
         height: fit-content !important;
 
         h2 {
-            font-size: 20px;
+            display: none;
         }
     }
 
