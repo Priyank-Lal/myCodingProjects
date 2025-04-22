@@ -1,6 +1,6 @@
 @media (max-width : 500px) {
     .rcProgress {
-        top: 77% !important;
+        top: 79% !important;
         left: 50%;
         position: absolute;
         transform: translate(-50%, -50%);
@@ -9,8 +9,8 @@
     }
 
     .CircleDiv {
-        width: 220px !important;
-        height: 220px !important;
+        width: 200px !important;
+        height: 200px !important;
 
         span {
             display: none !important;
