@@ -25,7 +25,7 @@
 
 @media (max-height : 820px) {
     .rcProgress {
-        top: 74% !important;
+        top: 79% !important;
         left: 50% !important;
         position: absolute;
         transform: translate(-50%, -50%);
@@ -48,7 +48,7 @@
 
 @media (max-width : 768px) {
     .rcProgress {
-        top: 75% !important;
+        top: 79% !important;
         left: 50% !important;
         position: absolute;
         transform: translate(-50%, -50%);
@@ -74,7 +74,7 @@
 @media (max-width : 375px) {
 
     .rcProgress {
-        top: 80% !important;
+        top: 77% !important;
         left: 50% !important;
         position: absolute;
         transform: translate(-50%, -50%);
@@ -86,8 +86,8 @@
     }
 
     .CircleDiv {
-        width: 160px !important;
-        height: 160px !important;
+        width: 190px !important;
+        height: 190px !important;
 
         span {
             display: none !important;
